@@ -1,0 +1,842 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff31507\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi0\deflang1036\deflangfe1036\themelang1036\themelangfe0\themelangcs1025{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria Math;}{\f37\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\f38\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}
+{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fhimajor\f31502\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria;}{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\fbiminor\f31507\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}{\f49\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\f50\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\f52\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f53\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f54\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f55\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f56\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f57\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f59\fbidi \fswiss\fcharset238\fprq2 Arial CE;}
+{\f60\fbidi \fswiss\fcharset204\fprq2 Arial Cyr;}{\f62\fbidi \fswiss\fcharset161\fprq2 Arial Greek;}{\f63\fbidi \fswiss\fcharset162\fprq2 Arial Tur;}{\f64\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}
+{\f65\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}{\f66\fbidi \fswiss\fcharset186\fprq2 Arial Baltic;}{\f67\fbidi \fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f389\fbidi \froman\fcharset238\fprq2 Cambria Math CE;}
+{\f390\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}{\f392\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}{\f393\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}{\f396\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}
+{\f397\fbidi \froman\fcharset163\fprq2 Cambria Math (Vietnamese);}{\f419\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\f420\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\f422\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}
+{\f423\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}{\f426\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\f427\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\f429\fbidi \fswiss\fcharset238\fprq2 Tahoma CE;}
+{\f430\fbidi \fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f432\fbidi \fswiss\fcharset161\fprq2 Tahoma Greek;}{\f433\fbidi \fswiss\fcharset162\fprq2 Tahoma Tur;}{\f434\fbidi \fswiss\fcharset177\fprq2 Tahoma (Hebrew);}
+{\f435\fbidi \fswiss\fcharset178\fprq2 Tahoma (Arabic);}{\f436\fbidi \fswiss\fcharset186\fprq2 Tahoma Baltic;}{\f437\fbidi \fswiss\fcharset163\fprq2 Tahoma (Vietnamese);}{\f438\fbidi \fswiss\fcharset222\fprq2 Tahoma (Thai);}
+{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhimajor\f31528\fbidi \froman\fcharset238\fprq2 Cambria CE;}{\fhimajor\f31529\fbidi \froman\fcharset204\fprq2 Cambria Cyr;}
+{\fhimajor\f31531\fbidi \froman\fcharset161\fprq2 Cambria Greek;}{\fhimajor\f31532\fbidi \froman\fcharset162\fprq2 Cambria Tur;}{\fhimajor\f31535\fbidi \froman\fcharset186\fprq2 Cambria Baltic;}
+{\fhimajor\f31536\fbidi \froman\fcharset163\fprq2 Cambria (Vietnamese);}{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}
+{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}
+{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\fbiminor\f31578\fbidi \fswiss\fcharset238\fprq2 Arial CE;}{\fbiminor\f31579\fbidi \fswiss\fcharset204\fprq2 Arial Cyr;}
+{\fbiminor\f31581\fbidi \fswiss\fcharset161\fprq2 Arial Greek;}{\fbiminor\f31582\fbidi \fswiss\fcharset162\fprq2 Arial Tur;}{\fbiminor\f31583\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}
+{\fbiminor\f31584\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}{\fbiminor\f31585\fbidi \fswiss\fcharset186\fprq2 Arial Baltic;}{\fbiminor\f31586\fbidi \fswiss\fcharset163\fprq2 Arial (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;
+\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;
+\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red43\green43\blue43;\red51\green51\blue51;\ctexttwo\ctint153\cshade255\red84\green141\blue212;\red171\green171\blue171;\red59\green88\blue152;\red203\green203\blue203;}{\*\defchp 
+\fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap \ql \li0\ri0\sa200\sl276\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1036\langfe1036\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 \snext0 \sqformat \spriority0 Normal;}
+{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \fs22\lang1036\langfe1036\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 
+\snext11 \ssemihidden \sunhideused \sqformat Normal Table;}}{\*\rsidtbl \rsid1075523\rsid2046604\rsid2570631\rsid5309822\rsid5913579\rsid8536047\rsid8537761\rsid13525650\rsid15347659}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1
+\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\operator mjedri}{\creatim\yr2011\mo10\dy6\hr22\min51}{\revtim\yr2011\mo11\dy18\hr16\min2}{\version5}{\edmins140}{\nofpages9}{\nofwords2335}{\nofchars12845}{\nofcharsws15150}
+{\vern32859}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}\paperw16840\paperh11900\margl0\margr0\margt0\margb0\gutter0\ltrsect 
+\deftab80\widowctrl\ftnbj\aenddoc\hyphhotz425\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0
+\showxmlerrors0\expshrtn\dntblnsbdb\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\rsidroot5309822 \fet0{\*\wgrffmtfilter 2450}\ilfomacatclnup0\ltrpar \sectd \ltrsect
+\lndscpsxn\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnqc\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnqc\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnqc\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4
+\pnlcltr\pnqc\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnqc\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnqc\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7
+\pnlcrm\pnqc\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnqc\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnqc\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar
+\ql \li0\ri0\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1036\langfe1036\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\f0\fs24\insrsid2570631 {\*\bkmkstart Pg1}{\*\bkmkend Pg1}
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid2570631 \sect }\sectd \ltrsect\lndscpsxn\sbknone\linex0\cols2\colno1\colw9856\colsr160\colno2\colw6684\sectdefaultcl\sftnbj 
+\pard\plain \ltrpar\ql \li3614\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3614\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1036\langfe1036\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 {
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid2570631 
+\par 
+\par 
+\par }\pard \ltrpar\ql \li5108\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin5108\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\expnd0\expndtw-2\cf17\insrsid2570631 
+\par }\pard \ltrpar\ql \li5108\ri0\sb171\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin5108\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\ul\cf6\charscalex111\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 
+---"Mouvement 4 Octobre Curva Nord"---
+\par }\pard \ltrpar\ql \li3774\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb118\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex111\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 
+1_ Paroles L'Intro :
+\par }\pard \ltrpar\ql \li3774\ri0\sb59\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex112\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 "refrain" :
+\par }\pard \ltrpar\ql \li11417\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin11417\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex112\insrsid2570631 \column 
+\par 
+\par 
+\par }\pard \ltrpar\ql \li10016\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin10016\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf20\charscalex110\insrsid2570631 
+\par 
+\par }\pard \ltrpar\ql \li3875\ri0\sb6\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3875\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\insrsid2570631 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\insrsid2570631 \sect }\sectd \ltrsect\lndscpsxn\sbknone\linex0\cols3\colno1\colw3614\colsr160\colno2\colw8186\colsr160
+\colno3\colw4590\sectdefaultcl\sftnbj \pard\plain \ltrpar\ql \li1013\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin1013\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 
+\fs22\lang1036\langfe1036\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\insrsid2570631 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \ltrpar\ql \li20\ri0\sb60\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\expnd0\expndtw-1\cf21\insrsid2570631 \column }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 "amor amor\'e9\hich\af38\dbch\af31505\loch\f38 \hich\f38  por favor\'e9\loch\f38  si campion o 3adi netwafa m3ak n9im fel houl mi opssision"(x2)
+\par }\pard \ltrpar\ql \li20\ri0\sb59\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+7allit 3inya fi tounes lemdina nal9aha thneya twila 7amra w bidha
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex108\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 nal9a rou7i fkol thneya m3aha net3eb w nebki ki nhar n5alliha..
+\par }\pard \ltrpar\ql \li20\ri1426\sb12\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin1426\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex111\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 netfakker sghir ntayech fi sac a do nghanni far7an el virage ma 3ambelou }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 men ghir ma twassi men soghri abonn\'e9\loch\f38  tal9ani ndour fi jibi l'calandrier.. }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\lang1033\langfe1036\charscalex112\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 \hich\f38 7abbina CA w ma 3cha9nech ettitroet louage w train tatli3 ghn\'e9\loch\f38  fel vagounet }{\rtlch\fcs1 \af38\afs17 
+\ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex108\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 el boulice taghi wel famille mafj\hich\af38\dbch\af31505\loch\f38 ou3in louled tghanni mel 3asma lyoum zadmin.. }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 fina lli msba7 fina lli fi terrain fina lli twa9ef wa7dek ta3ref e'refrain
+\par }\pard \ltrpar\ql \li20\ri0\sb48\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 w l\hich\f38 \rquote \loch\f38 
+essentiel tetlam el curva familya ultras yalla n*** l'7ala..
+\par }\pard \ltrpar\ql \li20\ri1567\sb11\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin1567\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+keyen 3a9leya men 7wemna echa3bya lammet lyeli w loughet sa77a jam3ya }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 fina lli bk\'e9\loch\f38 
+ ki jbedna 3attes3inet dazou lm7aysi l'afrique bina telhet... \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex113\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 "refrain"(x2)
+\par }\pard \ltrpar\qj \li20\ri2018\sb1\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin2018\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 kberna w fhemna edawla dhed CA 9anoun conterha messa7afa lmedia \line 7abou yna7iwha men teri5 koura 7abou l3assima to93ed lel mortaz9a.. \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 7abouna nkounou jomhour bl\'e9\loch\f38  fiert\loch\af38\dbch\af31505\hich\f38 \'e9\loch\f38  t*** lel solta 3ayech 0 respect
+\par }\pard \ltrpar\ql \li20\ri0\sb48\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 ye5i 3tinehom le\'e7\loch\f38 
+\hich\f38 on fid\'e9\loch\f38 \hich\f38 lit\'e9\loch\f38 \hich\f38  w fradhna 3lihom l'ultra mentalit\'e9..
+\par }\pard \ltrpar\ql \li20\ri0\sb59\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+hedi ljileni men meddeb lchiboub idris jnaya7 9arwi pouvoir w flouus
+\par }\pard \ltrpar\qj \li20\ri1430\sb12\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin1430\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 mahouch klem etteri5 howa lli 9oul ma fammech koura kenet chkoun yghour... }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex113\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 "refrain"(x2\hich\af38\dbch\af31505\loch\f38 )
+\par }\pard \ltrpar\ql \li20\ri1407\sb1\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin1407\lin20\itap0\pararsid1075523 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex108\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 nafra7 ki na7ki lweldi 7keya hakka allah yar7am lli 5allewna n7bbouha }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex110\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 jam3ya kbira etteri5 chehed biha kouretna ndhifa dima raf3a ryousna.. 9ollou ychaja3ha rahi mouch mzeya toujours fidel n7ebbek hakka l'3a9leya }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 3omrek ma t3ayet }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid1075523 
+\hich\af38\dbch\af31505\loch\f38 be}{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 sami el t*** lflous temchi w tji w to93ed ken CA .. }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex110\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 \hich\f38 e5er l7dith joumhourya 7amra w bidha rjel w ns\'e9\loch\f38 
+ kbar w sghar beha tlammina }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex108\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 drapeau l'3assima amena bin ydina meni nessi l'fri9i }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex108\langnp1033\insrsid1075523 \hich\af38\dbch\af31505\loch\f38 fy}{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\lang1033\langfe1036\charscalex108\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38  3inyna...
+\par }\pard \ltrpar\ql \li20\ri0\sb48\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex112\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 "refrain" :
+\par }\pard \ltrpar\ql \li20\ri0\sb60\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 "amor amor\'e9\loch\f38 \hich\f38  por favor\'e9\loch\f38  si campion 3a\hich\af38\dbch\af31505\loch\f38 di netwafa m3ak n9im fel houl mi opssision"(x2)
+\par }\pard \ltrpar\ql \li3774\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 
+\par }\pard \ltrpar\ql \li20\ri0\sb117\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin20\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\lang1033\langfe1036\charscalex106\langnp1033\insrsid2570631\charrsid2046604 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 02_ 3adi N\'e9\loch\f38 klachi :
+\par }\pard \ltrpar\ql \li20\ri0\sb60\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin20\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex106\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 3adiiii N\'e9\loch\f38 \hich\f38 klachi lli mayjich a3la B\'e9\loch\f38 li
+\par }\pard \ltrpar\ql \li20\ri0\sb153\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin20\itap0\pararsid5309822 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex106\langnp1033\insrsid2570631\charrsid5309822 \column }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\langnp1033\insrsid5309822\charrsid5309822 
+\par }\pard \ltrpar\ql \li1741\ri0\sb6\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin1741\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\langnp1033\insrsid2570631\charrsid5309822 
+\par }\pard \ltrpar\ql \li12377\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin12377\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\langnp1033\insrsid2570631\charrsid5309822 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\expnd0\expndtw-2\cf22\lang1033\langfe1036\langnp1033\insrsid2570631\charrsid5309822 \sect }\sectd \ltrsect
+\lndscpsxn\linex0\sectdefaultcl\sftnbj \pard\plain \ltrpar\ql \li0\ri0\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 
+\fs22\lang1036\langfe1036\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 {\rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24\expnd0\expndtw-2\cf22\lang1033\langfe1036\langnp1033\insrsid2570631\charrsid5309822 {\*\bkmkstart Pg2}
+{\*\bkmkend Pg2}
+\par }\pard \ltrpar\ql \li3774\ri0\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24\expnd0\expndtw-2\cf22\lang1033\langfe1036\langnp1033\insrsid2570631\charrsid5309822 
+\par }\pard \ltrpar\ql \li3774\ri8864\sb38\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin8864\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 W\'e9\loch\f38 \hich\f38 led el 3assma na7g\'e9\loch\f38 \hich\f38 r el Kav\'e9\loch\f38 \hich\f38 ya H\'e9\loch\f38 dha 7ali \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\lang1033\langfe1036\charscalex108\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 \hich\f38 9adr\'e9\'e9\'e9\loch\f38 \hich\f38 k m\'e9\loch\f38 \hich\f38 n 9adri fi mo5\'e9\loch\f38 \hich\f38 k Rak Zaw\'e9
+\loch\f38 li \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Chouuuf aaa7k\'e9\loch\f38 \hich\f38 ya a9wa wija a7kih\'e9
+\loch\f38 li.. \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex106\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 \hich\f38 N\'e9\loch\f38 \hich\f38 wi nkam\'e9\loch\f38 l Parcouri.. N
+\hich\f38 \rquote \loch\f38 Confirmi Scori.. \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex107\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 \hich\f38 B\'e9\loch\f38 \hich\f38 li t7
+\'e9\loch\f38 \hich\f38 bou \'e9\loch\f38 \hich\f38 dirroulii .. Tjiw \'e9\loch\f38 l\hich\f38 \rquote \loch\f38 \hich\f38 *** Tch\'e9\loch\f38 douhouli \line \hich\f38 N3adi 7y\'e9\loch\f38 \hich\f38 ti 7agu\'e9\loch\f38 \hich\f38 rkOm w\'e9\loch\f38 
+nZid na7guerkOm \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex108\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 Kavi f\hich\f38 \rquote \loch\f38 \hich\f38 mo5i ignorii H\'e9
+\loch\f38 dhi 79i9a moch Paroli 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex108\langnp1033\insrsid2570631\charrsid5309822 
+\par }\pard \ltrpar\ql \li3774\ri0\sb104\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex106\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+03_ Communiqu\'e9\loch\f38  Curva Nord : 
+\par }\pard \ltrpar\ql \li3774\ri0\sb44\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 3assim\hich\af38\dbch\af31505\loch\f38 
+a 3assima lalalala 3assima 3assima lalalala 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+3assima 3assima lalalala 3assima 3assima 3assima ya ghaliya 
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 fiha yesser fo5ra ki tsammina les ultras marginal fil deniya catalogu\'e9\loch\f38 s 3and essolta 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+ejjabri fil terrain yejri w ydhor ejjam3iya n9oulou 7amdoullah r\hich\af38\dbch\af31505\loch\f38 aciste anti jboura 
+\par }\pard \ltrpar\ql \li3774\ri5104\sb20\sl-250\slmult0\nowidctlpar\wrapdefault\faauto\rin5104\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+differente f'3ichetna fi loughetna w 9a3d\'e9\loch\f38 \hich\f38 tna ken ndirou el guirra a3ref el boulis dhal\'e9\loch\f38 mna }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+koura 3andna mouch vice barcha passion w plaisir ma7koum perp\'e9\loch\f38 \hich\f38 tuit\'e9\loch\f38  bech nchajja3 \line ejjam3iya 
+\par }\pard \ltrpar\qj \li3774\ri5449\sb2\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin5449\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+w 3malna elli 3lina w b3athna lil chorta message r\loch\af38\dbch\af31505\hich\f38 \'e9\loch\f38 volution 9riba massma3ouch klem el virage 
+\par }\pard \ltrpar\qj \li3774\ri5238\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin5238\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+sa7afa authentique le meme style ken ettasfi9 mayhemmech el huis clos m\'e9\loch\f38 dem el badge yod5ol bih 
+\par }\pard \ltrpar\ql \li3774\ri5504\sl-250\slmult0\nowidctlpar\wrapdefault\faauto\rin5504\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+ftf mafia lkoura 3am wra 3am ydhorrouna trafic w voyaget w y9oulou koura mo7tarfa mezelt el messira avanti gli ultr\hich\af38\dbch\af31505\loch\f38 \hich\f38 as, football populaire bl\'e9\loch\f38 \hich\f38  7ss\'e9\loch\f38 \hich\f38 b\'e9\loch\f38 
+t w siyessa \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 lezem tha9afa jdida mouch des stadiers b3ad 3al koura 
+\par }\pard \ltrpar\ql \li3774\ri0\sb45\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 tefhem la3b\'e9\loch\f38 
+d el respect w m3ah la culture ultra 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 les comit\'e9\loch\f38 
+s tetha9ef w teb3ed 3al t*** 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 lezem d\'e9\loch\f38 cort jdid wel kavi yoghzor lb3id 
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 3assima 3assima lalalal\hich\af38\dbch\af31505\loch\f38 a 3assima 3assima lalalala 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+3assima 3assima lalalala 3assima 3assima 3assima ya ghaliya 
+\par }\pard \ltrpar\qj \li3774\ri5617\sb12\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin5617\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+ki ndour fil afrique nord nassma3 ken sa77a ya tounsi la3b\'e9\loch\f38 \hich\f38 d 9a3d\'e9\loch\f38 \hich\f38 t bouche b\'e9\loch\f38 \hich\f38 e min 5edmetna fil \'e9\loch\f38 tranger 
+\par }\pard \ltrpar\qj \li3774\ri5790\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin5790\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+9alou molto grazie wassaltouna el mentalit\'e9\hich\af38\dbch\af31505\loch\f38 \hich\f38  ma5oftouch mil syst\'e8\loch\f38 \hich\f38 me w 3adhabtou l'autorit\'e9\loch\f38  
+\par }\pard \ltrpar\qj \li3774\ri5545\sl-250\slmult0\nowidctlpar\wrapdefault\faauto\rin5545\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 mezelna fil t\'e9\loch\f38 
+\hich\f38 l\'e9\loch\f38 \hich\f38  nchoufou baramej p\'e9\loch\f38 \hich\f38 rim\'e9\loch\f38 \hich\f38  ya7kili 3al ta7kim w le5er 9allou mondassine li ysaffa9 n*** ommou ma3rouf mest\'e9\loch\f38 
+nis bil matraque nmoutou ken b9darna hakka t3allamna fil virage 
+\par }\pard \ltrpar\qj \li3774\ri5489\sb8\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin5489\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex112\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 choufou les dirigeants
+\hich\af38\dbch\af31505\loch\f38 \hich\f38  kifech titsarref fil terrain yn\'e9\loch\f38 \hich\f38 gligiw l'arbitrage w yd\'e9\loch\f38 clenchiw el fawdha 
+\par }\pard \ltrpar\ql \li3774\ri5131\sb10\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin5131\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+kima 9alou ness bekri kol far3oun 3andou moussa dehors ya t*** lezem recyclage lil koura \line \hich\f38 vamos yal tifosi hezz \'e9\loch\f38 \hich\f38 tendarek 9im el hool men\'e9\loch\f38 \hich\f38 ch n\'e9\loch\f38 wine n5alliw lkoura lil facebook 
+\line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 hi\hich\af38\dbch\af31505\loch\f38 \hich\f38 ya elli lamm\'e9\loch\f38 \hich\f38 tna 3ichna m3aha des bons moments 7arebna 3la bl\'e9
+\loch\f38 \hich\f38 dna w 9olna l\'e9\loch\f38  lil \line repression 
+\par }\pard \ltrpar\ql \li3774\ri0\sb55\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex112\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 cache-col Burberry tendu d'\'e9
+\loch\f38 charpes Fred Perry 3aychine dans nos sujets w dima free la }{\rtlch\fcs1 \af31507 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid4787449 
+{\shp{\*\shpinst\shpleft572\shptop572\shpright16258\shpbottom11337\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz0\shplid1026{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 15686}}{\sp{\sn geoBottom}{\sv 10765}}{\sp{\sn pVerticies}{\sv 8;4;(15686,10765);(0,10765);(0,0);(15686,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt0\dppolygon\dppolycount3\dpptx15686\dppty10765\dpptx0\dppty10765\dpptx0\dppty0
+\dpx572\dpy572\dpxsize15686\dpysize10765\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft16245\shptop572\shpright16265\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz1\shplid1027{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt1\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx16245\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright16245\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz2\shplid1028{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 12804}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(12804,0);(12804,10778);(0,10778);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt2\dppolygon\dppolycount3\dpptx12804\dppty0\dpptx12804\dppty10778\dpptx0\dppty10778
+\dpx3441\dpy572\dpxsize12804\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright3461\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz3\shplid1029{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt3\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx3441\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}}{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex112\insrsid2570631 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex112\insrsid2570631 \sect }\sectd \ltrsect\lndscpsxn\linex0\sectdefaultcl\sftnbj \pard\plain \ltrpar
+\ql \li0\ri0\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1036\langfe1036\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 {\rtlch\fcs1 \af38\afs24 
+\ltrch\fcs0 \f38\fs24\cf18\charscalex112\insrsid2570631 {\*\bkmkstart Pg3}{\*\bkmkend Pg3}
+\par }\pard \ltrpar\ql \li3774\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24\cf18\charscalex112\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb124\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex112\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 palestine 
+\par }\pard \ltrpar\ql \li3774\ri5745\sb18\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin5745\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+allez allez les jeunes 90 d9i9a dans les veines la curva nord tunis 16 sn\'e9\loch\f38 \hich\f38  dima fid\'e8\loch\f38 le }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+hedha message sghir lelli ghalet fi 3ich\'e9\loch\f38 tna mentalita ultra rana anti hamajiya \line \hich\f38 man7ebbouch el footix w n7ebbou enness ezz\'e9\loch\f38 \hich\f38 hine message tagu\'e9\loch\f38  partout jamais nkounou des
+\hich\af38\dbch\af31505\loch\f38  marchandises 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb84\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex106\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 \hich\f38 04_Ma3l
+\'e9\loch\f38 \hich\f38 b\'e9\loch\f38 \hich\f38 lna b Si Fl\'e9\loch\f38 n : 
+\par }\pard \ltrpar\ql \li3774\ri0\sb64\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Yal 3assma Wl\'e9\loch\f38 
+\hich\f38 d\'e9\loch\f38 k Anti-Hadra 
+\par }\pard \ltrpar\ql \li3774\ri4780\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin4780\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Lyouma Ndirou el Guar7a w\'e9
+\loch\f38 ndirou Chi5a \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 Hakka a7na Trabinaa 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 N\hich\f38 \rquote \loch\f38 \hich\f38 
+supportiw l\'e9\loch\f38 fri9i elli Tzahinaa 
+\par }\pard \ltrpar\qj \li3774\ri8014\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin8014\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 9allouuu \'85\loch\f38 
+\hich\f38  3a9liy\'e9\loch\f38 \hich\f38 t Wl\'e9\loch\f38 \hich\f38 d \'e9\loch\f38 \hich\f38 sgharrr Ya5i Ch\'e9\loch\f38 \hich\f38 fou \'e9\loch\f38 li Saarrr }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 Maf\'e9\loch\f38 \hich\f38 hmouu \'85\loch\f38 \hich\f38  W\'e9\loch\f38 \hich\f38 lou M\'e9\hich\af38\dbch\af31505\loch\f38 lli Hadrou 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 Solidaire .. ki Ndeclariw La Guerre 
+
+\par \hich\af38\dbch\af31505\loch\f38 \hich\f38 Lel Curva a7na Fidel .. Man5afouu \'85\loch\f38 \hich\f38  Ma3l\'e9\loch\f38 \hich\f38 b\'e9\loch\f38 \hich\f38 lna B Si Fl\'e9\loch\f38 n 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb114\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex106\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+05_ Ndewin 3l\'e9\loch\f38 ha : 
+\par }\pard \ltrpar\ql \li3774\ri0\sb44\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Allez allez allez L\'e9
+\loch\f38 fri9i Allez Allez Oh (x2) 
+\par }\pard \ltrpar\qj \li3774\ri8253\sb12\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin8253\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Allez Allez Allez L\'e9
+\loch\f38 \hich\f38 fri9ii Allez .. Ojji Domani Ultra Tefar\'e9\loch\f38  }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 La7k\'e9\loch\f38 \hich\f38 ya Z\'e9\loch\f38 \hich\f38 
+yda w\'e9\hich\af38\dbch\af31505\loch\f38 \hich\f38 l Hadra B\'e9\loch\f38 yna 
+\par }\pard \ltrpar\ql \li3774\ri0\sb34\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Koura Fi Tunis W\'e9\loch\f38 
+\hich\f38 dh3\'e9\loch\f38 ya Merda 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 N\hich\f38 \rquote \loch\f38 \hich\f38 
+Honnori \'e9\rquote \loch\f38 CA n\hich\f38 \rquote \loch\f38 Honnori l\hich\f38 \rquote \loch\f38 Curva 
+\par \hich\af38\dbch\af31505\loch\f38 \hich\f38 Nchaja3 Jam3iti hAdhika Lf\'e9\loch\f38 yda 
+\par }\pard \ltrpar\ql \li3774\ri4773\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin4773\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 M\'e9\loch\f38 \hich\f38 
+nghir Matloumouni \'e9\rquote \loch\f38 \hich\f38 CA Md\'e9\loch\f38 \hich\f38 win 3l\'e9\loch\f38 ha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Chi5ti f D\'e9
+\loch\f38 \hich\f38 nya Kif \'e9\loch\f38 \hich\f38 nghani b Hw\'e9\loch\f38 ha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Fri9i l3ass\'e9\loch\f38 \hich\f38 ma y\'e9
+\loch\f38 \hich\f38 ss\'e9\loch\f38 \hich\f38 r 7abin\'e9\loch\f38 ha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Priorit\'e9\loch\f38 \hich\f38  f\'e9\loch\f38 
+\hich\f38 d\'e9\loch\f38 \hich\f38 nya 3maln\'e9\loch\f38 haa 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb102\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex108\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 
+06_ Curva Nord Allez : 
+\par }\pard \ltrpar\qj \li3774\ri5183\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin5183\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+Ooooooh ooohh ooooohh oooohhh ooooohh ooooohhh ooooohhh ooohhhhhhh ooooooooh }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 All\'e9\'e9\'e9\'e9\loch\f38 \hich\f38 
+z La Curva Nord All\'e9\loch\f38 \hich\f38 z All\'e9\'e9\loch\f38 \hich\f38 z \'85\loch\f38 \hich\f38 . La Curva Nord All\'e9\loch\f38 \hich\f38 z All\'e9\'e9\loch\f38 \hich\f38 z \'85\loch\f38 \hich\f38 . La Curva Nord All\'e9\'e9\loch\f38 \hich\f38 
+z Alll\'e9\'e9\'e9\loch\f38 \hich\f38 z All\'e9\'e9\'e9\'e9\'e9\loch\f38 \hich\f38 z\'85\loch\f38  Ultraaaaasss 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb73\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex109\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 07_ Intfadha : 
+
+\par }\pard \ltrpar\qj \li3774\ri7870\sb27\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin7870\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex106\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ooooh La 7al \'e9
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 ydouum .. Todhlom el B\'e9\loch\f38 \hich\f38 ra7 w T\'e9\loch\f38 bki lYoumm }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+Ooooh Vafanculo .. Anti CHorta Anti Facho 
+\par }\pard \ltrpar\ql \li3774\ri4689\sb10\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin4689\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Systeme emass\'e9
+\loch\f38 \hich\f38 5 w 3omrou May\'e9\loch\f38 \hich\f38 t7ass\'e9\loch\f38 n \line \hich\f38 Y\'e9\loch\f38 \hich\f38 bki Y\'e9\loch\f38 \hich\f38 tyat\'e9\loch\f38 \hich\f38 m el Boulis May\'e9\loch\f38 \hich\f38 tbadd\'e9\loch\f38 l \line }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex105\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 A .C.A .B n9oulh\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 k w\'e9\loch\f38 \hich\f38 nti \'e9\loch\f38 \hich\f38 n9\'e9\'e9
+\loch\f38 m \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex106\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Perpetuit\'e9\loch\f38 \hich\f38  La Haine M\'e9\loch\f38 \hich\f38 n Ghir Mat\'e9\loch\f38 \hich\f38 fh\'e9
+\loch\f38 m 
+\par }\pard \ltrpar\qj \li3774\ri7870\sb18\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin7870\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex106\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ooooh La 7al \'e9
+\loch\f38 ydouum \hich\af38\dbch\af31505\loch\f38 \hich\f38 .. Todhlom el B\'e9\loch\f38 \hich\f38 ra7 w T\'e9\loch\f38 bki lYoumm }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+Ooooh Vafanculo .. Anti CHorta Anti Facho }{\rtlch\fcs1 \af31507 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid4787449 
+{\shp{\*\shpinst\shpleft572\shptop572\shpright16258\shpbottom11337\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz4\shplid1030{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 15686}}{\sp{\sn geoBottom}{\sv 10765}}{\sp{\sn pVerticies}{\sv 8;4;(15686,10765);(0,10765);(0,0);(15686,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt4\dppolygon\dppolycount3\dpptx15686\dppty10765\dpptx0\dppty10765\dpptx0\dppty0
+\dpx572\dpy572\dpxsize15686\dpysize10765\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft16245\shptop572\shpright16265\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz5\shplid1031{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt5\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx16245\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright16245\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz6\shplid1032{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 12804}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(12804,0);(12804,10778);(0,10778);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt6\dppolygon\dppolycount3\dpptx12804\dppty0\dpptx12804\dppty10778\dpptx0\dppty10778
+\dpx3441\dpy572\dpxsize12804\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright3461\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz7\shplid1033{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt7\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx3441\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}}{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \sect }\sectd \ltrsect\lndscpsxn\linex0\sectdefaultcl\sftnbj \pard\plain \ltrpar
+\ql \li0\ri0\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1036\langfe1036\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 {\rtlch\fcs1 \af38\afs24 
+\ltrch\fcs0 \f38\fs24\cf18\charscalex107\insrsid2570631 {\*\bkmkstart Pg4}{\*\bkmkend Pg4}
+\par }\pard \ltrpar\ql \li3774\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24\cf18\charscalex107\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb124\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af31507 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid4787449 
+{\shp{\*\shpinst\shpleft1551\shptop677\shpright14355\shpbottom11455\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz10\shplid1034{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 12804}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(12804,0);(12804,10778);(0,10778);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt10\dppolygon\dppolycount3\dpptx12804\dppty0\dpptx12804\dppty10778\dpptx0\dppty10778
+\dpx1551\dpy677\dpxsize12804\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}}{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631\charrsid1075523 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 Virage el 3assma 3malna 9anoun \'e9\loch\f38 jdid 
+\par }\pard \ltrpar\ql \li3774\ri4737\sb20\sl-250\slmult0\nowidctlpar\wrapdefault\faauto\rin4737\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Man7\'e9\loch\f38 
+\hich\f38 bbou \'e9\rquote \loch\f38 \hich\f38 Solta Lboulis yo93\'e9\loch\f38 \hich\f38 d \'e9\loch\f38 b3iiid \line \hich\f38 Tay\'e9\loch\f38 \hich\f38 ch \'e9\loch\f38 \hich\f38 l K\'e9\loch\f38 swa w na7i el Carte Servise \line }{\rtlch\fcs1 
+\af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex105\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 A 5tak m\'e9\loch\f38 \hich\f38 l Curva l\'e9\loch\f38  Tw\loch\af38\dbch\af31505\hich\f38 \'e9\loch\f38 ti el Guirra Fiik 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex105\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb84\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\lang1033\langfe1036\charscalex107\langnp1033\insrsid2570631\charrsid2046604 
+\hich\af38\dbch\af31505\loch\f38 08_ CA mi Corazon : 
+\par }\pard \ltrpar\ql \li3774\ri0\sb64\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex107\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 CA Mi Corazon .. }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 CA vama Ganar 
+\par }\pard \ltrpar\qj \li3774\ri7431\sb28\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin7431\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+Con No Devi Darti .. Allez les Jeunes Avanti .. Nchallah Campionn }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Dall\'e9\loch\f38  Caaa ooohh squadra orgoglio 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb106\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex107\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 
+09_Couleur Lemdina : 
+\par }\pard \ltrpar\ql \li3774\ri0\sb44\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 Ghir L\hich\f38 \rquote \loch\f38 
+\hich\f38 fri9i W\'e9\loch\f38 \hich\f38 lou Yzah\'e9\loch\f38 naa .. La Bandera Yaw Fo5ra Lina 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 7amra w Bidha Couleur L\'e9
+\loch\f38 mdina .. }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex107\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 Prima .. Vamos CA (x2) 
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 iNchallah Roja Presenta .. }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Vamos CA Dal\'e9\loch\f38  l\hich\f38 \rquote \loch\f38 Campion sempre Alerta (x2) 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb94\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex111\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 \hich\f38 10_MInist
+\'e9\loch\f38 re de l\hich\f38 \rquote \loch\f38 \hich\f38 int\'e9\loch\f38 rieur : 
+\par }\pard \ltrpar\ql \li3774\ri0\sb64\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex106\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+Siamo Noi La Curva Nord .. Come AScolti .. Voce Masmou3 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Supporteur Ultra \'e9\loch\f38 
+\hich\f38 f\'e9\loch\f38 \hich\f38 hmouuunaa \'85\loch\f38  Dirou b\loch\af38\dbch\af31505\hich\f38 \'e9\loch\f38 \hich\f38 lKom Ta9\'e9\loch\f38 m3Ouna 
+\par }\pard \ltrpar\ql \li3774\ri7038\sb18\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin7038\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ya Da5il\'e9\loch\f38 
+\hich\f38 ya .. rb\'e9\loch\f38 \hich\f38 7na l9adh\'e9\loch\f38 \hich\f38 ya .. Sibouna f7alna \'85\loch\f38 \hich\f38  ndirou li ya7l\'e9\loch\f38 lna \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 Jamais Nansa f\'e9\loch\f38 \hich\f38 l Pass\'e9\loch\f38 \hich\f38  Chd\'e9\loch\f38 \hich\f38 rtou Fina .. Karah\'e9\loch\f38 \hich\f38 ya Jamais T\'e9\loch\f38 fna \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Combat m3a l7ak\'e9\loch\f38 \hich\f38 m Mou7al Toufa .. l\'e9\loch\f38 \hich\f38 5\'e9\loch\f38 \hich\f38 r \'e9\loch\f38 \hich\f38 d\'e9\loch\f38 nya Mou9awmaaa 
+\line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Rabi 7m\'e9\loch\f38 na m\hich\f38 \rquote \loch\f38 \hich\f38 toghy\'e9\loch\f38 \hich\f38 n .. m\'e9\loch\f38 \hich\f38 
+n 3\'e9\loch\f38 \hich\f38 dy\'e9\loch\f38 \hich\f38 naa .. Alll\'e9\loch\af38\dbch\af31505\hich\f38 \'e9\'e9\loch\f38 z Les Jeunes 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex108\insrsid2570631\charrsid2046604 
+\par }\pard \ltrpar\ql \li3774\ri0\sb84\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex108\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 11_ Dirou Effort : 
+
+\par }\pard \ltrpar\ql \li3774\ri0\sb64\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Loul\'e9\loch\f38 \hich\f38 
+d Dirou effort \'85\loch\f38  Zahiw el Galerie 
+\par }\pard \ltrpar\ql \li3774\ri9017\sb20\sl-250\slmult0\nowidctlpar\wrapdefault\faauto\rin9017\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 N7\'e9\loch\f38 bou l
+\hich\f38 \rquote \loch\f38 \hich\f38 Maryoul Mabloul .. w\'e9\loch\f38 \hich\f38 l Koura f\'e9\loch\f38 l Filet \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex106\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Esm\'e9
+\loch\f38 \hich\f38 k Dima 3alii .. All\'e9\loch\f38 \hich\f38 z l\'e9\loch\f38 \hich\f38 fri9i All\'e9\loch\f38 z \line \hich\f38 Qu\'e9\loch\f38 \hich\f38  Vinci .. Qu\'e9\loch\f38  Perda .. CA Dima f9albi \line \hich\f38 "Mi Amor\'e9\loch\f38 
+\hich\f38  Fatto Goal .. Dall\'e9\loch\f38  CA \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 Forza Bianco Rosso .. Mia Negrilla" 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb104\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex110\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 
+12_ Descontrolado : 
+\par }\pard \ltrpar\ql \li3774\ri0\sb44\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \loch\af38\dbch\af31505\hich\f38 \'c9\loch\f38 \hich\f38  Dall\'e9
+\loch\f38  Ooooh .. Jomhourna Fidel ya3cha9 les Bianco Rosso 
+\par }\pard \ltrpar\ql \li3774\ri7357\sb18\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin7357\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Win enro7ou .. K\'e9
+\loch\f38 yna les Flammes les Etandares w Les Drapeaux }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 A 9wa Parcours \'85\loch\f38  l\hich\f38 \rquote \loch\f38 \hich\f38 
+identit\'e9\loch\f38 \hich\f38  fier b\'e9\loch\f38 ha w b9darna n3ichou \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 Phenomeno .. 9alouh\hich\af38\dbch\af31505\loch\f38 
+a ki 3arfouna Descontrolado \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Dall\'e9\loch\f38 \hich\f38  Dall\'e9\loch\f38  l\hich\f38 \rquote \loch\f38 
+campion .. Hasta La victoria siempre \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 L\'e9\loch\f38 \hich\f38 fri9i Mi Passion fi 5at\'e9\loch\f38 rha l\hich\f38 \rquote 
+\loch\f38 Kollou yhoun \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 M3akom La Curva Nord Wl\'e9\loch\f38 \hich\f38 d Bl\'e9\loch\f38 \hich\f38 d w Kamikaz\'e9\loch\f38  
+\line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Mentalita Nostra M\'e9\loch\f38 \hich\f38 ssoghra 3l\'e9\loch\f38 ha n7arbou 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb84\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex107\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 \hich\f38 13 _F\'e9
+\loch\f38 \hich\f38 l Virage H\'e9\loch\f38 dha 7ali : }{\rtlch\fcs1 \af31507 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid4787449 
+{\shp{\*\shpinst\shpleft572\shptop572\shpright16258\shpbottom11337\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz8\shplid1035{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 15686}}{\sp{\sn geoBottom}{\sv 10765}}{\sp{\sn pVerticies}{\sv 8;4;(15686,10765);(0,10765);(0,0);(15686,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt8\dppolygon\dppolycount3\dpptx15686\dppty10765\dpptx0\dppty10765\dpptx0\dppty0
+\dpx572\dpy572\dpxsize15686\dpysize10765\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft16245\shptop572\shpright16265\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz9\shplid1036{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt9\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx16245\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright3461\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz11\shplid1037{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt11\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx3441\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex107\insrsid2570631\charrsid2046604 
+
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \sect }\sectd \ltrsect\lndscpsxn\linex0\sectdefaultcl\sftnbj \pard\plain \ltrpar
+\ql \li0\ri0\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1036\langfe1036\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 {\rtlch\fcs1 \af38\afs24 
+\ltrch\fcs0 \f38\fs24\cf18\charscalex107\insrsid2570631 {\*\bkmkstart Pg5}{\*\bkmkend Pg5}
+\par }\pard \ltrpar\ql \li3774\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24\cf18\charscalex107\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb104\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af31507 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid15347659 
+{\shp{\*\shpinst\shpleft3291\shptop467\shpright16095\shpbottom11245\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz14\shplid1040{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 12804}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(12804,0);(12804,10778);(0,10778);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt14\dppolygon\dppolycount3\dpptx12804\dppty0\dpptx12804\dppty10778\dpptx0\dppty10778
+\dpx3291\dpy467\dpxsize12804\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}}{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 F\'e9\loch\f38 \hich\f38 l Virage H\'e9\loch\f38 \hich\f38 dha 7allii \'85\loch\f38 \hich\f38  na3m\'e9\loch\f38 \hich\f38 l \'e9\loch\f38 \hich\f38 li Yji 3la B\'e9\loch\f38 lii 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 L\'e9\loch\f38 \hich\f38 
+l Curva j\'e9\loch\f38 \hich\f38 y \'e9\loch\f38 \hich\f38 nd\'e9\loch\f38 \hich\f38 foli \'85\loch\f38  b\hich\f38 \rquote \loch\f38 \hich\f38 Resultat Ma3anb\'e9\loch\f38 li 
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 \hich\f38 T\'e9\loch\f38 \hich\f38 tsawarha 7k\'e9\loch\f38 \hich\f38 ya s3iba .. a7na \'e9
+\loch\f38 \hich\f38 li n\'e9\loch\f38 pidiwha 
+\par }\pard \ltrpar\ql \li3774\ri4285\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin4285\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex110\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 W\'e9\loch\f38 \hich\f38 r\'e9\loch\f38 \hich\f38 b7a chkoun lli yjibha \'85\loch\f38  Resistenza 3al Maryoul \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\lang1033\langfe1036\charscalex108\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 \hich\f38 5aliwni na7ki a3l\'e9\loch\f38 ha .. }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 5aliwni na3ch\'e9\loch\f38 9ha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 L\'e9\loch\f38 \hich\f38 fri9i \'e9\loch\f38 
+\hich\f38 dd\'e9\loch\f38 \hich\f38 nya Bl\'e9\loch\f38 \hich\f38  B\'e9\loch\f38 \hich\f38 ha Jamais K\'e9\loch\f38 \hich\f38 n\'e9\loch\f38 \hich\f38 t D\'e9\loch\f38 nya (x2 ) 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb84\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\lang1033\langfe1036\charscalex108\langnp1033\insrsid2570631\charrsid2046604 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 14_ Man5afou w\'e9\loch\f38 lou : 
+\par }\pard \ltrpar\ql \li3774\ri0\sb64\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex107\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 Man5afou w\'e9\loch\f38 \hich\f38 lou fkol \'e9\loch\f38 mdina Rana Zadmin 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 L\hich\f38 \rquote \loch\f38 \hich\f38 
+Gar7a fi b\'e9\loch\f38 \hich\f38 lou f\'e9\loch\f38 \hich\f38 l Curva Dima ch\'e9\loch\f38 n3in 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 7amra w\'e9\hich\af38\dbch\af31505\loch\f38 \hich\f38 l Bidha Ray\'e9\loch\f38 \hich\f38 t l\'e9\loch\f38 \hich\f38 bl\'e9\loch\f38 d Rana 3af3in 
+\par }\pard \ltrpar\ql \li3774\ri8893\sb16\sl-255\slmult0\nowidctlpar\wrapdefault\faauto\rin8893\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex108\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 Mayh\'e9\loch\f38 \hich\f38 mou W\'e9\loch\f38 lou Ndirou Craquage fi Kol Partie \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\lang1033\langfe1036\charscalex107\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Choftou Les Kamikaz ki Zdomna l\'e9\loch\f38 \hich\f38 l Alg\'e9\loch\f38 rie \line }{\rtlch\fcs1 \af38\afs17 
+\ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Casa w\'e9\loch\f38 \hich\f38 l 9ahra T\'e9\loch\f38 \hich\f38 zzi w\'e9\loch\f38 zzou w Tripoli \line 
+\hich\f38 Esm el Virage Nord Partout Tagu\'e9\loch\f38 \hich\f38  f\'e9\loch\f38 \hich\f38 l \'e9\loch\f38 tranger \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex110\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 Ah ya Jabri t3all\'e9\loch\f38 \hich\f38 m m\'e9\loch\f38 \hich\f38 ni w matouss\'e9\loch\f38 lii 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex110\langnp1033\insrsid2570631\charrsid5309822 
+\par }\pard \ltrpar\ql \li3774\ri0\sb84\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\lang1033\langfe1036\charscalex107\langnp1033\insrsid2570631\charrsid2046604 
+\hich\af38\dbch\af31505\loch\f38 15_Has\hich\af38\dbch\af31505\loch\f38 ta Final : 
+\par }\pard \ltrpar\ql \li3774\ri0\sb64\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex106\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 Hasta Finaall .. Vamos CA Ganar .. 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Siempre 7adhrin \'e9\loch\f38 
+\hich\f38 m3ak .. ch\'e9\loch\f38 \hich\f38 b\'e9\loch\f38 \hich\f38 b \'e9\loch\f38 \hich\f38 l 3ass\'e9\loch\f38 ma 
+\par }\pard \ltrpar\ql \li3774\ri8153\sb16\sl-255\slmult0\nowidctlpar\wrapdefault\faauto\rin8153\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ahh Y\'e9\loch\f38 
+\hich\f38  Loul\'e9\'e9\loch\f38 \hich\f38 d \'85\loch\f38 \hich\f38  H\'e9\loch\f38 \hich\f38 dha l3am 3amna w nzahiw l\'e9\loch\f38 \hich\f38 bl\'e9\'e9\loch\f38 d }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 Cagoul\'e9\loch\f38 \hich\f38  Rj\'e9\loch\f38 \hich\f38 l \'e9\loch\f38 \hich\f38 zm\'e9\loch\f38 \hich\f38 n .. Jamais nansa Loul\'e9\'e9\loch\f38 d \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Eli 3ach9ou el Couleur \'85\loch\f38 \hich\f38  Fawzi lass3\'e9\loch\f38 d Wissem \line \hich\f38 Sallou Tajou f\'e9\loch\f38 \hich\f38 l B\'e9\'e9\loch\f38 l 
+\loch\af38\dbch\af31505\hich\f38 \'85\loch\f38  ooooohh oooh ooohh \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ca oooh ooooh ooohh \'85\loch\f38 \hich\f38  Ti Amooooo 
+\'85\loch\f38  
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb84\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex107\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+16_ m3aha Kb\'e9\loch\f38 rna : 
+\par }\pard \ltrpar\ql \li3774\ri0\sb64\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 M3aha Kb\'e9\loch\f38 
+\hich\f38 rnaaa .. 3\'e9\loch\f38 \hich\f38 chna w T3al\'e9\loch\f38 \hich\f38 mna Barcha m\'e9\loch\f38 \hich\f38 dd\'e9\loch\f38 nyaaa 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 5alina el 3al\'e9\loch\f38 
+m kollou y9addarna .. w Y\hich\f38 \rquote \loch\f38 respecti l\hich\f38 \rquote \loch\f38 maryoul 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex112\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 3a9l\'e9\loch\f38 \hich\f38 y
+\'e9\loch\f38 \hich\f38 tnaaa \'85\loch\f38 \hich\f38  Virage \'e9\loch\f38 \hich\f38 li Yrepresentii 3ich\'e9\loch\f38 tnaaa 
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Gar7a \'e9\loch\f38 li t\loch\af38\dbch\af31505\hich\f38 \rquote \loch\f38 \hich\f38 exprimi m7ab\'e9\loch\f38 \hich\f38 ttnaa 
+\'85\loch\f38  Vamos Yal Curva Nord 
+\par }\pard \ltrpar\ql \li3774\ri7076\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin7076\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \loch\af38\dbch\af31505\hich\f38 \'e9\loch\f38 \hich\f38  Dall\'e9
+\loch\f38 \hich\f38  Dall\'e9\loch\f38 \hich\f38  W\'e9\loch\f38 \hich\f38 ld \'e9\rquote \loch\f38 \hich\f38 CA .. li 7ar\'e9\loch\f38 \hich\f38 b 3al Liberta w\'e9\loch\f38 \hich\f38 lli Ydir \'e9\loch\f38 \hich\f38 roublaa (x2) Frou5 \'e9\loch\f38 
+\hich\f38 skara \'85\loch\f38 \hich\f38  M\'e9\loch\f38 chi B'mo5ou Ya7ki l\hich\f38 \rquote \loch\f38 Birra Ghaddara \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+Machoufna f\'e9\loch\f38 \hich\f38 l Bl\'e9\loch\f38 \hich\f38 d K\'e9\loch\f38 n l\hich\f38 \rquote \loch\f38 \hich\f38 Haddara \'85\loch\f38  li Ygoulou Maydirou }{\rtlch\fcs1 \af31507 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid4787449 
+{\shp{\*\shpinst\shpleft572\shptop572\shpright16258\shpbottom11337\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz12\shplid1038{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 15686}}{\sp{\sn geoBottom}{\sv 10765}}{\sp{\sn pVerticies}{\sv 8;4;(15686,10765);(0,10765);(0,0);(15686,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt12\dppolygon\dppolycount3\dpptx15686\dppty10765\dpptx0\dppty10765\dpptx0\dppty0
+\dpx572\dpy572\dpxsize15686\dpysize10765\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft16245\shptop572\shpright16265\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz13\shplid1039{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt13\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx16245\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright3461\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz15\shplid1041{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt15\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx3441\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}}{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \sect }\sectd \ltrsect\lndscpsxn\linex0\sectdefaultcl\sftnbj \pard\plain \ltrpar
+\ql \li0\ri0\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1036\langfe1036\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 {\rtlch\fcs1 \af38\afs24 
+\ltrch\fcs0 \f38\fs24\cf18\charscalex110\insrsid2570631 {\*\bkmkstart Pg6}{\*\bkmkend Pg6}
+\par }\pard \ltrpar\ql \li3774\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24\cf18\charscalex110\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb104\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Wl\'e9\loch\f38 \hich\f38 
+d el Curvaaa \'85\loch\f38 \hich\f38  Principe \'e9\loch\f38 \hich\f38 jdid w 3a9l\'e9\loch\f38 \hich\f38 y\'e9\loch\f38 t Les Ultras 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Kav\'e9\loch\f38 \hich\f38 ya B
+\'e9\loch\f38 \hich\f38 htou f\'e9\loch\f38 \hich\f38 l La Vida Nostraa .. Jamais f\'e9\loch\f38 \hich\f38 hmou W\'e9\loch\f38 lou 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \loch\af38\dbch\af31505\hich\f38 \'e9\loch\f38 \hich\f38  Dall\'e9
+\loch\f38 \hich\f38  Dall\'e9\loch\f38 \hich\f38  W\'e9\loch\f38 \hich\f38 ld \'e9\rquote \loch\f38 \hich\f38 CA .. li 7ar\'e9\loch\f38 \hich\f38 b 3al Liberta w\'e9\loch\f38 \hich\f38 lli Ydir \'e9\loch\f38 roublaa (x2) 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex109\insrsid2570631\charrsid2046604 
+\par }\pard \ltrpar\ql \li3774\ri0\sb94\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex109\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+17_ n3ich 7y\'e9\loch\f38 ti Ultra : 
+\par }\pard \ltrpar\qj \li3774\ri7770\sb10\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin7770\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ooooh n3ich 7y\'e9
+\loch\f38 \hich\f38 ti Ultraa \'85\hich\af38\dbch\af31505\loch\f38  Ooooh Para La Gloria de CA (x2) }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Avantii Yal Ghalya win \'e9
+\loch\f38 trou7 a7na Ray7iin 
+\par }\pard \ltrpar\ql \li3774\ri8298\sl-255\slmult0\nowidctlpar\wrapdefault\faauto\rin8298\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+Drapeau L3assma Hazzin el Virage Nord a7na Mzahiiin \line \hich\f38 9olna Out Law ??? ma3l\'e9\loch\f38 \hich\f38 b\'e9\loch\f38 \hich\f38 lna b\'e9\loch\f38 l 9awanin \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 W J\'e9\loch\f38 \hich\f38 bna \'e9\loch\f38 \hich\f38 l7or\'e9\loch\f38 \hich\f38 ya wl\'e9\loch\f38 d el Virage ryousna Raf3in \line }{\rtlch\fcs1 \af38\afs17 
+\ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 No Me Importa Nada w thawra a7na Bdi\hich\af38\dbch\af31505\loch\f38 na \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 B\'e9\loch\f38 \hich\f38 ssm \'e9\loch\f38 cha3b eli Msouffri l\hich\f38 \rquote \loch\f38 \hich\f38 Virage \'e9\loch\f38 y9oul Liberta \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Wra Bachi \'e9\loch\f38 \hich\f38 ndir li Fb\'e9\loch\f38 li w nwari el mentalita \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ultra ki yGoul \'e9\loch\f38 \hich\f38 ydir b\'e9\loch\f38 \hich\f38 l f\'e9\loch\f38 \hich\f38 3\'e9\loch\f38 \hich\f38 l m\'e9\loch\f38 \hich\f38 ch b\'e9\loch\f38 
+l Hadra \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Barak\'e9\loch\f38 \hich\f38 t m\'e9\loch\f38 \hich\f38 l Pouvoir Barak\'e9\loch\f38 t mel Repression \line }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 lYouma lbouliss \'e9\loch\f38 \hich\f38 dhlil w\'e9\loch\f38 \hich\f38 l Virage 9al \'e9\loch\f38 \hich\f38 l K\'e9\loch\f38 lma 
+
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb69\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex111\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 18_Npartag\hich\f38 
+\rquote \loch\f38 i 7\hich\af38\dbch\af31505\loch\f38 \hich\f38 y\'e9\loch\f38 ti : 
+\par }\pard \ltrpar\ql \li3774\ri8425\sb18\sl-250\slmult0\nowidctlpar\wrapdefault\faauto\rin8425\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 M3aha N\hich\f38 \rquote \loch\f38 
+partag\hich\f38 \rquote \loch\f38 \hich\f38 i 7y\'e9\loch\f38 \hich\f38 tiiii \'85\loch\f38 \hich\f38  m3aha n9aw\'e9\loch\f38 \hich\f38 m \'e9\loch\f38 \hich\f38 d\'e9\loch\f38 nyaa }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 3\'e9\loch\f38 \hich\f38 cht \'e9\loch\f38 \hich\f38 tranger fi Bl\'e9\loch\f38 \hich\f38 ddiii .. N\'e9\loch\f38 \hich\f38 stanna d\'e9\loch\f38 \hich\f38 nya T\'e9
+\loch\f38 \hich\f38 zhaa Lyouma yagra7 Parcajii .. lyouma y\'e9\loch\f38 \hich\f38 ch3\'e9\loch\f38 l Viraji \line \hich\f38 Lyouma ndir crakajii .. n7ar\'e9\loch\f38 \hich\f38 b nadhr\'e9\loch\f38 b 3al 3assma }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Yall\'e9\loch\f38 \hich\f38 ll\'e9\loch\f38 \hich\f38 lla Yallala Yall\'e9\loch\f38 lelaa (x2) 
+\par }\pard \ltrpar\ql \li3774\ri9065\sb6\sl-255\slmult0\nowidctlpar\wrapdefault\faauto\rin9065\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 7k\'e9\loch\f38 \hich\f38 
+y\'e9\loch\f38 \hich\f38 t\'e9\loch\f38 k Ma\hich\af38\dbch\af31505\loch\f38 \hich\f38 ta3nini \'85\loch\f38  Jamais tepresentinii \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+\hich\f38 W\'e9\loch\f38 \hich\f38 lou li yd\'e9\loch\f38 \hich\f38 rijiniii \'85\loch\f38 \hich\f38  ki n7\'e9\loch\f38 \hich\f38 b \'e9\loch\f38 \hich\f38 ndir \'e9\loch\f38 rroubblaa \line \hich\f38 Curva li Tvalidini \'85\loch\f38 \hich\f38 m\'e9
+\loch\f38 \hich\f38 n 3a9li t\'e9\loch\f38 kotini \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 L\'e9\loch\f38 \hich\f38 fri9i li Tzahinii \'85\loch\f38 \hich\f38 
+ w m3aha \'e9\loch\f38 \hich\f38 d\'e9\loch\f38 \hich\f38 nya t\'e9\loch\f38 zhaa \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Yall\'e9\loch\f38 \hich\f38 ll\'e9
+\loch\f38 \hich\f38 lla Yallala Yall\'e9\loch\f38 lelaa (x2) 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb84\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex108\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 19_Non sara : 
+
+\par }\pard \ltrpar\ql \li3774\ri0\sb64\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Non Sara \'85\loch\f38 
+. Una De Vida .. fri9i l3as\hich\af38\dbch\af31505\loch\f38 \hich\f38 smaa \'85\loch\f38  la mia vita 
+\par }\pard \ltrpar\qj \li3774\ri7558\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin7558\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Non Sara .\'85\loch\f38 
+\hich\f38  Una ventura \'85\loch\f38 \hich\f38  All\'e9\loch\f38 \hich\f38 z All\'e9\loch\f38 \hich\f38 z Loul\'e9\loch\f38 d lyouma tjibouha }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 Y\'e9\loch\f38 \hich\f38 ss\'e9\loch\f38 \hich\f38 r Fo5raa \'85\loch\f38  ki nchouf maryoulha 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Des \'e9\loch\f38 \hich\f38 
+motions \'85\loch\f38  Kbira fi 9loubna 
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Siempre tefari .. oNsorha ya 3ali .. 7amra w bidha \'85\loch\f38  vinci per les Ultras... 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb114\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex110\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 
+20_ Poisson d'avril : 
+\par }\pard \ltrpar\ql \li3774\ri0\sb44\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex106\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ol\'e9
+\hich\af38\dbch\af31505\loch\f38 \hich\f38  ola ol\'e9\loch\f38 \hich\f38  ola ol\'e9\loch\f38 \hich\f38  ola ol\'e9\loch\f38 \hich\f38  ol\'e9\loch\f38 \hich\f38  ol\'e9\loch\f38  ola 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 tsamm\'e9\loch\f38 
+t 3likom papiche fil 3assima 
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 ettab3et 3likom kelmet el t*** 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 jomhour lefri9i ma3rouf dima zehi 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 makrouh mil solta 3omrou mayhezz t*** }{
+\rtlch\fcs1 \af31507 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid4787449 {\shp{\*\shpinst\shpleft572\shptop572\shpright16258\shpbottom11337\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz16\shplid1042
+{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn geoRight}{\sv 15686}}{\sp{\sn geoBottom}{\sv 10765}}{\sp{\sn pVerticies}{\sv 8;4;(15686,10765);(0,10765);(0,0);(15686,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10
+;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt16
+\dppolygon\dppolycount3\dpptx15686\dppty10765\dpptx0\dppty10765\dpptx0\dppty0\dpx572\dpy572\dpxsize15686\dpysize10765\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft16245\shptop572\shpright16265\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz17\shplid1043{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt17\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx16245\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright16245\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz18\shplid1044{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 12804}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(12804,0);(12804,10778);(0,10778);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt18\dppolygon\dppolycount3\dpptx12804\dppty0\dpptx12804\dppty10778\dpptx0\dppty10778
+\dpx3441\dpy572\dpxsize12804\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright3461\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz19\shplid1045{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt19\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx3441\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}}{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \sect }\sectd \ltrsect\lndscpsxn\linex0\sectdefaultcl\sftnbj \pard\plain \ltrpar
+\ql \li0\ri0\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1036\langfe1036\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 {\rtlch\fcs1 \af38\afs24 
+\ltrch\fcs0 \f38\fs24\cf18\charscalex109\insrsid2570631 {\*\bkmkstart Pg7}{\*\bkmkend Pg7}
+\par }\pard \ltrpar\ql \li3774\ri4823\sb231\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin4823\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+kberna fil 3assma b9darna w barcha ri9 \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 public fi mo55ou 3al ness lkol b3id \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 ghirna fil 3assma soghrou 3add\'e9\loch\f38 h dhlil \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 3ayech mil koura 0 plaisir 
+\par }\pard \ltrpar\ql \li3774\ri0\sb55\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\lang1033\langfe1036\charscalex109\langnp1033\insrsid2570631\charrsid5309822 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 fi b\'e9\loch\f38 b el parc we9ef sbe7 w lil 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex112\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 wel objectif ye5ou ticket gratuit 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 yod5ol lil curva nessi wa9t el partie 
+
+\par \hich\af38\dbch\af31505\loch\f38 \hich\f38 nessi jam3eytou ma3andouch fiert\'e9\loch\f38  
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex113\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 yestanna 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 wa9tech y3ayyet 3al ass\'e9\loch\f38 mi 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 ychajja3 el solta maychajja3ch el taraji 
+
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex106\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ol\'e9\loch\f38 \hich\f38  ola ol\'e9\loch\f38 \hich\f38  ola ol\'e9\loch\f38 \hich\f38  ola ol\'e9\loch\f38 \hich\f38  ol\'e9
+\loch\f38 \hich\f38  ol\'e9\loch\f38  ola 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 tsamm\'e9\loch\f38 
+t 3likom papiche fil 3assima 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 ettab3et 3likom kelmet el t*** 
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 k\'e9\loch\f38 \hich\f38 nou ychoufouna f'reb7a walla d\'e9\loch\f38 faite 
+\par }\pard \ltrpar\ql \li3774\ri8986\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin8986\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 parcage complet
+\hich\af38\dbch\af31505\loch\f38  dans tous les stades la fete \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 ne9mou 3la rwe7hom w sabbou el ganzou3i \line }{\rtlch\fcs1 
+\af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 wesslou 3amlou ghn\'e9\loch\f38 \hich\f38 ya ki t3add\'e9\loch\f38 \hich\f38 w fi l'alg\'e9\loch\f38 rie \line \hich\f38 
+espace insuffisant wel m5a5 limit\'e9\loch\f38 s \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 njik 3eryen yal boulis farkessni \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex112\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 thawret 8 avril rahi poisson d'avril \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+min tor7 el mazembe wentouma\hich\af38\dbch\af31505\loch\f38  maf9oudine \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 mabrouk 3likom album el curva nord \line }{\rtlch\fcs1 
+\af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 war9a w stylo 5oudh ra7tek fil paroles \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 loughet el 3assma ma3roufa Siamo noi \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 wenti taba3na ki t7eb t9im lhool \line }{\rtlch\fcs1 
+\af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex106\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ol\'e9\loch\f38 \hich\f38  ola ol\'e9\loch\f38 \hich\f38  ola ol\'e9\loch\f38 \hich\f38  ola ol\'e9\loch\f38 \hich\f38  ol\'e9\loch\f38 
+\hich\f38  ol\'e9\loch\f38  ola \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 tsamm\'e9\loch\f38 t 3likom papiche fil 3assima \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 ettab3et 3likom ke\hich\af38\dbch\af31505\loch\f38 lmet el t*** 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb82\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex111\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 21_Potenza : 
+\par }\pard \ltrpar\qj \li3774\ri6105\sb18\sl-250\slmult0\nowidctlpar\wrapdefault\faauto\rin6105\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Hakka 3ay\'e9\loch\f38 
+ch n\hich\f38 \rquote \loch\f38 \hich\f38 insesti 3al Potenza \'85\loch\f38 \hich\f38  w\'e9\loch\f38 \hich\f38 n 7ar\'e9\loch\f38 \hich\f38 b \'e9\loch\f38 \hich\f38 l 3\'e9\loch\f38 \hich\f38 dy\'e9\loch\f38 \hich\f38 n eli Hadrou fi 7alliii \'c9
+\loch\f38 ssmi 3alii ma3rouf b\hich\f38 \rquote \loch\f38 \hich\f38 resistenza \'85\loch\f38  N\hich\f38 \rquote \loch\f38 \hich\f38 supporti Ma3anb\'e9\loch\f38 \hich\f38 li jamais noghz\'e9\loch\f38 r l\hich\f38 \rquote \loch\f38 Score }{\rtlch\fcs1 
+\af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 5ali l\hich\f38 \rquote \loch\f38 \hich\f38 Curva fi 7alha a7na li Nmoutou 3la j\'e9\loch\f38 lha 
+\par }\pard \ltrpar\ql \li3774\ri4580\sb2\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin4580\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 L\'e9\loch\f38 \hich\f38 
+ t7aw\'e9\hich\af38\dbch\af31505\loch\f38 \hich\f38 l ta7ki 3lina l\'e9\loch\f38 \hich\f38  Tn\'e9\loch\f38 \hich\f38 f\'e9\loch\f38 \hich\f38 9 l\'e9\loch\f38 \hich\f38  tochk\'e9\loch\f38 r fina \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 5aliwna isol\'e9\'e9\'e9\'e9\loch\f38  Hakka n3ichouuu 
+\par }\pard \ltrpar\qj \li3774\ri5449\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin5449\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 N7\'e9\loch\f38 \hich\f38 b 
+\'e9\loch\f38 \hich\f38 roubla .. n7\'e9\loch\f38 \hich\f38 b el Gar7a w\'e9\loch\f38 \hich\f38 l Guirra \'85\loch\f38 \hich\f38  w nchi5 3la Parcajii .. ki Yabda y9im f\'e9\loch\f38 l Hool Y\hich\f38 \rquote \loch\f38 \hich\f38 exitini drapeau l7amra w
+\'e9\loch\f38 l Bidha 
+\par }\pard \ltrpar\ql \li3774\ri0\sb34\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Fi 9albi \'e9\loch\f38 
+nti valeuri wllah ma3andou 7doud 
+\par }\pard \ltrpar\ql \li3774\ri4613\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin4613\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ch\'e9\loch\f38 \hich\f38 
+y5in z\'e9\loch\f38 h\hich\af38\dbch\af31505\loch\f38 \hich\f38 in m3aha jam3\'e9\loch\f38 \hich\f38 y\'e9\loch\f38 \hich\f38 tna li Hwin\'e9\loch\f38 ha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 M\'e9\loch\f38 \hich\f38 ssoghra 7abin\'e9\loch\f38 \hich\f38 ha 9\'e9\loch\f38 \hich\f38 ssa twila li 3\'e9\loch\f38 \hich\f38 chn\'e9\loch\f38 ha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex106\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Jamais k\'e9\loch\f38 \hich\f38 n Yji Nhar F\'e9\loch\f38 ha nsalmmou }{\rtlch\fcs1 \af31507 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid4787449 
+{\shp{\*\shpinst\shpleft572\shptop572\shpright16258\shpbottom11337\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz20\shplid1046{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 15686}}{\sp{\sn geoBottom}{\sv 10765}}{\sp{\sn pVerticies}{\sv 8;4;(15686,10765);(0,10765);(0,0);(15686,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt20\dppolygon\dppolycount3\dpptx15686\dppty10765\dpptx0\dppty10765\dpptx0\dppty0
+\dpx572\dpy572\dpxsize15686\dpysize10765\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft16245\shptop572\shpright16265\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz21\shplid1047{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt21\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx16245\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright16245\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz22\shplid1048{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 12804}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(12804,0);(12804,10778);(0,10778);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt22\dppolygon\dppolycount3\dpptx12804\dppty0\dpptx12804\dppty10778\dpptx0\dppty10778
+\dpx3441\dpy572\dpxsize12804\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright3461\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz23\shplid1049{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt23\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx3441\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}}{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex106\insrsid2570631 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex106\insrsid2570631 \sect }\sectd \ltrsect\lndscpsxn\linex0\sectdefaultcl\sftnbj \pard\plain \ltrpar
+\ql \li0\ri0\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1036\langfe1036\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 {\rtlch\fcs1 \af38\afs24 
+\ltrch\fcs0 \f38\fs24\cf18\charscalex106\insrsid2570631 {\*\bkmkstart Pg8}{\*\bkmkend Pg8}
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24\cf18\charscalex106\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb48\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex108\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 \hich\f38 22_S\'e9
+\loch\f38 lba la39oul : 
+\par }\pard \ltrpar\qj \li3774\ri5237\sb10\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin5237\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+Oooh ooooh ooooh ooooh ooooohh llllallllallalalallalalallalaaa Ghram m soghra Ydoum w ma Y\'e9\hich\af38\dbch\af31505\loch\f38 fna 
+\par }\pard \ltrpar\ql \li3774\ri0\sb34\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 All\'e9\loch\f38 \hich\f38 
+z all\'e9\loch\f38 \hich\f38 z Zahi l\'e9\loch\f38 \hich\f38 ml\'e9\loch\f38 \hich\f38 y\'e9\loch\f38 \hich\f38 n \'85\loch\f38 \hich\f38  ya L\'e9\loch\f38 \hich\f38 fri9i Kollou 3lik H\'e9\loch\f38 \hich\f38 y\'e9\loch\f38 n 
+\par }\pard \ltrpar\qj \li3774\ri7464\sb20\sl-250\slmult0\nowidctlpar\wrapdefault\faauto\rin7464\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 S\'e9\loch\f38 \hich\f38 
+lba la39oul Mal9awl\'e9\loch\f38 \hich\f38 k \'e9\loch\f38 \hich\f38 ssm\'e9\loch\f38 \hich\f38 k \'85\loch\f38 \hich\f38  lay\'e9\loch\f38 \hich\f38 m \'e9\loch\f38 \hich\f38 dour w b\'e9\loch\f38 \hich\f38 9i nahw\'e9\loch\f38 \hich\f38 
+k Des souvenirs b\'e9\loch\f38 \hich\f38 9ya f\'e9\loch\f38 \hich\f38 l M\'e9\loch\f38 \hich\f38 moire \'85\loch\f38 \hich\f38  Rouba3\'e9\loch\f38 ya w Snin el Gloire }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 ????????????????\'85\loch\f38 \hich\f38  phenomen l\'e9\loch\f38 \hich\f38 bl\'e9\loch\f38 \hich\f38 d \'e9\loch\f38 ssmou CA 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb104\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex109\insrsid2570631\charrsid2046604 \hich\af38\dbch\af31505\loch\f38 23_Histoire D
+\hich\f38 \rquote \loch\f38 \hich\f38 une L\'e9\loch\f38 gende :\hich\af38\dbch\af31505\loch\f38  
+\par }\pard \ltrpar\ql \li3774\ri0\sb44\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 La Storia Infinita .. CA Per L\hich\f38 
+\rquote \loch\f38 iternita 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 N\'e9\loch\f38 \hich\f38 jb\'e9
+\loch\f38 \hich\f38 d 3l\'e9\loch\f38 \hich\f38  Madh\'e9\loch\f38 \hich\f38 ha .. 9\'e9\loch\f38 \hich\f38 ssa fier ki na7k\'e9\loch\f38 ha 
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 N\'e9\loch\f38 \hich\f38 tfak\'e9\loch\f38 \hich\f38 r la noblesse de la cause eli 9am\'e9\loch\f38 \hich\f38 t a3l\'e9\loch\f38 
+ha 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 5al\'e9\loch\f38 \hich\f38 
+t idiologie 7ayya fina w Kb\'e9\loch\f38 \hich\f38 rna b\'e9\loch\f38 ha 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 1915 naissance w bd\'e9
+\loch\f38 \hich\f38 t t\'e9\loch\f38 \hich\f38 tchak\'e9\loch\f38 l lostoura 
+\par }\pard \ltrpar\ql \li3774\ri8284\sb18\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin8284\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Bin \'e9\loch\f38 
+\hich\f38 zn\'e9\loch\f38 \hich\f38 9i l\'e9\hich\af38\dbch\af31505\loch\f38 \hich\f38 mdina des Jeunes jam3\'e9\loch\f38 t\hich\f38 \rquote \loch\f38 hom el Kourra \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 T\'e9\loch\f38 \hich\f38 kt\'e9\loch\f38 \hich\f38 b aw\'e9\loch\f38 \hich\f38 l star fi tari5 el Football \'e9\rquote \loch\f38 tunisi \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 L\hich\f38 \rquote \loch\f38 \hich\f38 douan f\'e9\loch\f38 \hich\f38 l bl\'e9\loch\f38 d w tsamma l\hich\f38 \rquote \loch\f38 \hich\f38 mal3ab l\'e9\loch\f38 fri9ii \line 
+\hich\f38 Des solutions 3am 18 d\'e9\loch\f38 \hich\f38 cision l\'e9\loch\f38 \hich\f38 7til\'e9\loch\f38 l \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 
+Les tunisois juifs ki 9am\'e9\loch\f38 \hich\f38 t \'e9\loch\f38 m3ahom la guerre \line \hich\f38 Cha3\'e9\loch\f38 \hich\f38 b fi bl\'e9\loch\f38 \hich\f38 dou ma9mou3 l\'e9\loch\f38 \hich\f38 st\'e9\loch\f38 3mar ta\hich\af38\dbch\af31505\loch\f38 
+\hich\f38 ghi f\'e9\loch\f38 ha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 7abou y7arbou lhaw\'e9\loch\f38 \hich\f38 ya w may5aliw 7atta trace l\'e9\loch\f38 ha \line 
+}{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 H\'e9\loch\f38 \hich\f38 dhi Mak\'e9\loch\f38 \hich\f38 n\'e9\loch\f38 \hich\f38 t tanfa3 w\'e9\loch\f38 l\hich\f38 \rquote 
+\loch\f38 \hich\f38 7k\'e9\loch\f38 \hich\f38 ya Ghir bd\'e9\loch\f38 t \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 7k\'e9\loch\f38 \hich\f38 y\'e9\loch\f38 \hich\f38 
+t \'e9\loch\f38 \hich\f38 n\'e9\loch\f38 \hich\f38 di l\'e9\loch\f38 \hich\f38 fri9i w nidhal 3al bl\'e9\loch\f38 d \line L\hich\f38 \rquote \loch\f38 \hich\f38 objectif jam3\'e9\loch\f38 \hich\f38 ya w tkoun 100%  touns\'e9\loch\f38 yya \line }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Destin\'e9\loch\f38 \hich\f38  au peuple w t7amilhom 3al Haw\'e9\loch\f38 ya \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 3am 19 des arrivistes 9alou\hich\af38\dbch\af31505\loch\f38  5la9na l\hich\f38 \rquote \loch\f38 Koura \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Jam3\'e9\loch\f38 \hich\f38 ya 5adhra w Bidha w\'e9\loch\f38 \hich\f38 l Identit\'e9\loch\f38  Majhoula \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 W chfa3\'e9\loch\f38 \hich\f38 lhom ihoudi 9adh\'e9\loch\f38 \hich\f38 y\'e9\loch\f38 \hich\f38 t l\'e9\loch\f38 \hich\f38 bl\'e9\loch\f38 d Ba3ouha \line }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Honneur Fid\'e9\loch\f38 \hich\f38 lit\'e9\loch\f38  Valeur d\hich\f38 \rquote \loch\f38 \hich\f38 origine y\'e9\loch\f38 \hich\f38 
+j\'e9\loch\f38 hlouha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 wRj\'e9\loch\f38 \hich\f38 lna 3achou Nadhlou talbou Fardhou el Haw\'e9\loch\f38 ya \line }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 N\'e9\loch\f38 \hich\f38 jma w Hl\'e9\loch\f38 \hich\f38 l 3al Maryoul 7amra w Bidha loun \'e9\loch\f38 raya \line Fr
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 i9i m\'e9\loch\f38 \hich\f38 n \'e9\loch\f38 \hich\f38 fri9\'e9\loch\f38 \hich\f38 ya inspir\'e9\loch\f38 \hich\f38  m\'e9\loch\f38 \hich\f38 n \'e9\loch\f38 \hich\f38 sm Bl\'e9\loch\f38 dnaa \line }{\rtlch\fcs1 
+\af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex105\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Moslmin w Fier hommage li din jd\'e9\loch\f38 dna \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 Octobre 1920 enfin tk\'e9\loch\f38 \hich\f38 tb\'e9\loch\f38 t Saf7a Jdida \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Li M
+\'e9\loch\f38 n snin 7arbou 3lih finalement sar a79i9a \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 En\'e9\loch\f38 \hich\f38 di l\'e9\loch\f38 \hich\f38 fri9i \'e9
+\loch\f38 \hich\f38 li 3al\'e9\loch\f38 \hich\f38 m ma3na la fiert\'e9\loch\f38  \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Sout \'e9\loch\f38 \hich\f38 cha3b \'e9
+\loch\f38 \hich\f38 li Msouffri w\'e9\loch\f38 \hich\f38 li tall\'e9\loch\f38 \hich\f38 b La Libert\'e9\loch\f38  \line \hich\af38\dbch\af31505\loch\f38 \hich\f38 Snin wra Snin t3add\'e9\loch\f38 \hich\f38 t Des Principes \'e9\loch\f38 \hich\f38 thb\'e9
+\loch\f38 \hich\f38 tna 3l\'e9\loch\f38 hom \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Jill wra Jil 5al\'e9\loch\f38 \hich\f38 w \'e9\rquote \loch\f38 \hich\f38 
+CA amena fi yd\'e9\loch\f38 hom 
+\par }\pard \ltrpar\ql \li3774\ri0\sb35\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 
+Gloire ta7ki 3lina Belle Histoire fo5ra Lina 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 H\'e9\loch\f38 \hich\f38 
+dha Howwa t\'e9\loch\f38 \hich\f38 ri5na 3ara9a tsamm\'e9\loch\f38 t 3lina 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\par 
+\par }\pard \ltrpar\ql \li3774\ri0\sb10\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex108\insrsid2570631\charrsid5913579 \hich\af38\dbch\af31505\loch\f38 24_ Vamos La roja : 
+}{\rtlch\fcs1 \af31507 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid4787449 {\shp{\*\shpinst\shpleft572\shptop572\shpright16258\shpbottom11337\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz24\shplid1050
+{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn geoRight}{\sv 15686}}{\sp{\sn geoBottom}{\sv 10765}}{\sp{\sn pVerticies}{\sv 8;4;(15686,10765);(0,10765);(0,0);(15686,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10
+;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt24
+\dppolygon\dppolycount3\dpptx15686\dppty10765\dpptx0\dppty10765\dpptx0\dppty0\dpx572\dpy572\dpxsize15686\dpysize10765\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft16245\shptop572\shpright16265\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz25\shplid1051{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt25\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx16245\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright16245\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz26\shplid1052{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 12804}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(12804,0);(12804,10778);(0,10778);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt26\dppolygon\dppolycount3\dpptx12804\dppty0\dpptx12804\dppty10778\dpptx0\dppty10778
+\dpx3441\dpy572\dpxsize12804\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft3441\shptop572\shpright3461\shpbottom11350\shpfhdr0\shpbxpage\shpbxignore\shpbypage\shpbyignore\shpwr3\shpwrk0\shpfblwtxt1\shpz27\shplid1053{\sp{\sn shapeType}{\sv 0}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn geoRight}{\sv 20}}{\sp{\sn geoBottom}{\sv 10778}}{\sp{\sn pVerticies}{\sv 8;4;(0,10778);(20,10778);(20,0);(0,0)}}{\sp{\sn pSegmentInfo}{\sv 2;10;16384;45824;1;45824;1;45824;1;45824;24577;32768}}{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fillColor}{\sv 13421772}}{\sp{\sn fFilled}{\sv 1}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineType}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn dhgt}{\sv 0}}
+{\sp{\sn fLayoutInCell}{\sv 0}}{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 0}}}{\shprslt{\*\do\dobxpage\dobypage\dodhgt27\dppolygon\dppolycount3\dpptx0\dppty10778\dpptx20\dppty10778\dpptx20\dppty0
+\dpx3441\dpy572\dpxsize20\dpysize10778\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr204\dpfillbgcg204\dpfillbgcb204\dpfillpat1\dplinehollow}}}}{\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex108\insrsid2570631\charrsid5913579 
+
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \sect }\sectd \ltrsect\lndscpsxn\linex0\sectdefaultcl\sftnbj \pard\plain \ltrpar
+\ql \li0\ri0\sl-240\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1036\langfe1036\loch\af31506\hich\af31506\dbch\af31505\cgrid\langnp1036\langfenp1036 {\rtlch\fcs1 \af38\afs24 
+\ltrch\fcs0 \f38\fs24\cf18\charscalex108\insrsid2570631 {\*\bkmkstart Pg9}{\*\bkmkend Pg9}
+\par }\pard \ltrpar\ql \li3774\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24\cf18\charscalex108\insrsid2570631 
+\par 
+\par }\pard \ltrpar\ql \li3774\ri0\sb109\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 All\'e9\loch\f38 \hich\f38 
+z all\'e9\loch\f38 \hich\f38 z l\'e9\hich\af38\dbch\af31505\loch\f38 \hich\f38 fri9i avantii \'85\loch\f38 \hich\f38  all\'e9\loch\f38 \hich\f38 z all\'e9\loch\f38 \hich\f38 z l\'e9\loch\f38 \hich\f38 fri9i all\'e9\loch\f38 \hich\f38 z all\'e9\loch\f38 
+z (x2) 
+\par }\pard \ltrpar\ql \li3774\ri0\sb66\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Vamo la Roja .. Vamo La Blanca 
+\'85\loch\f38  Vamos CA Vama Ganar 
+\par }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Man5afou W\'e9\loch\f38 \hich\f38 lou \'85\loch\f38 \hich\f38  M3ak ra7 \'e9\loch\f38 \hich\f38 nss\'e9\loch\f38 \hich\f38 rou 
+\'85\loch\f38  Virage En Tour Jibou 3 Points 
+\par }\pard \ltrpar\ql \li3774\ri0\sb46\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex112\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 (x2) 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex112\insrsid2570631 
+\par }\pard \ltrpar\ql \li3774\ri0\sb114\sl-204\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \ab\af38\afs20 \ltrch\fcs0 \b\f38\fs20\cf19\charscalex108\insrsid2570631\charrsid5913579 \hich\af38\dbch\af31505\loch\f38 25_ Outro : 
+\par }\pard \ltrpar\ql \li3774\ri8984\sl-255\slmult0\nowidctlpar\wrapdefault\faauto\rin8984\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ah Y\'e9\loch\f38 \hich\f38 l
+\'e9\loch\f38 \hich\f38 l Yal\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 l Y\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 la Ah Y\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 l YaL\'e9\loch\f38 laa (x2) \line }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Jam3\'e9\loch\f38 \hich\f38 ya M\'e9\loch\f38 n\hich\af38\dbch\af31505\loch\f38 \hich\f38  3am 20 ytabba3 F\'e9\loch\f38 ha \line }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex111\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 10 Ml\'e9\loch\f38 \hich\f38 y\'e9\loch\f38 \hich\f38 n Supporteurs y7ar\'e9\loch\f38 \hich\f38 b a3l\'e9\loch\f38 ha \line }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Relation K\'e9\loch\f38 \hich\f38 n el 3ali li Ya3l\'e9\loch\f38 \hich\f38 m B\'e9\loch\f38 ha \line }{\rtlch\fcs1 \af38\afs17 
+\ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Sensation Kbira fi 9albi rani m5ob\'e9\loch\f38 ha \line \hich\f38 N7\'e9\loch\f38 \hich\f38 b n\'e9\loch\f38 \hich\f38 fh\'e9\loch\f38 \hich\f38 mha b\'e9
+\loch\f38 \hich\f38 ch \'e9\loch\f38 \hich\f38 naj\'e9\loch\f38 \hich\f38 m \'e9\loch\f38 \hich\f38 nd\'e9\loch\f38 \hich\f38 clar\'e9\loch\f38 ha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 5ali \'e9\loch\f38 \hich\f38 l3al\'e9\loch\f38 \hich\f38 m \'e9\loch\f38 \hich\f38 lkollou yanalyz\'e9\loch\f38 ha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 7k\'e9\loch\f38 \hich\f38 ya jamais n\'e9\loch\f38 \hich\f38 9b\'e9\loch\f38 l n\hich\f38 \rquote \loch\f38 \hich\f38 discuti f\'e9\loch\f38 ha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Na3ch\'e9\hich\af38\dbch\af31505\loch\f38 \hich\f38 9ha Nmout a3l\'e9\loch\f38 ha 
+\par }\pard \ltrpar\ql \li3774\ri7852\sl-253\slmult0\nowidctlpar\wrapdefault\faauto\rin7852\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Fri9i li 3adit 7y\'e9
+\loch\f38 \hich\f38 ti nsacrifi 3l\'e9\loch\f38 \hich\f38 ha \'85\loch\f38 \hich\f38  Jamais Nsall\'e9\loch\f38 \hich\f38 m f\'e9\loch\f38 haaaaa \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\hich\af38\dbch\af31505\loch\f38 \hich\f38 Ah Y\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 l Yal\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 l Y\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 la Ah Y\'e9\loch\f38 
+\hich\f38 l\'e9\loch\f38 \hich\f38 l YaL\'e9\loch\f38 laa (x2) \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 3adina m\'e9\loch\f38 \hich\f38 dd\'e9\loch\f38 \hich\f38 
+nya Part \'e9\loch\f38 kbir m3ahaaa \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 H\'e9\loch\f38 \hich\f38 ya lli tzahina H\'e9\loch\f38 \hich\f38 ya lli 7abin\'e9
+\loch\f38 ha \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 H\'e9\loch\f38 \hich\f38 ya Reperna fi kol a7k\'e9\loch\f38 \hich\f38 ya 3maln\'e9\loch\f38 ha \line }{
+\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex113\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 3la 5at\'e9\loch\f38 rha reses\hich\af38\dbch\af31505\loch\f38 tina w trespectina \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Wl\'e9\loch\f38 \hich\f38 d el Curva Wl\'e9\loch\f38 \hich\f38 d \'e9\loch\f38 \hich\f38 l 3assma Hakka tsamm\'e9\loch\f38 na \line }{\rtlch\fcs1 \af38\afs17 
+\ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Elli 3tatou chi5a b\'e9\'e9\'e9\loch\f38 \hich\f38 ch ysa9si 3l\'e9\loch\f38 haa \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 
+\f38\fs17\cf18\charscalex108\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Yal Kavi dir \'e9\loch\f38 \hich\f38 mz\'e9\loch\f38 \hich\f38 ya m\'e9\loch\f38 \hich\f38 n B\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 k na7\'e9\loch\f38 naa 
+\line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Scor\'e9\loch\f38 \hich\f38 k \'e9\loch\f38 \hich\f38 b3id a3l\'e9\loch\f38 naaaa 
+\par }\pard \ltrpar\ql \li3774\ri4513\sl-260\slmult0\nowidctlpar\wrapdefault\faauto\rin4513\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex109\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Toutes les quetes l3ass\'e9
+\loch\f38 ma chadinhom fi ydina \line }{\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex107\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 Ndirou elli Yzahinna 
+\par }\pard \ltrpar\ql \li3774\ri0\sb17\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 \hich\af38\dbch\af31505\loch\f38 \hich\f38 Ah Y\'e9\loch\f38 \hich\f38 l
+\'e9\loch\f38 \hich\f38 l Yal\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 l Y\'e9\hich\af38\dbch\af31505\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 la Ah Y\'e9\loch\f38 \hich\f38 l\'e9\loch\f38 \hich\f38 l YaL\'e9\loch\f38 
+laa (x2) 
+\par }\pard \ltrpar\ql \li3774\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin3774\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\cf18\charscalex110\insrsid2570631 
+\par }\pard \ltrpar\ql \li13537\ri0\sl-195\slmult0\nowidctlpar\wrapdefault\faauto\rin0\lin13537\itap0 {\rtlch\fcs1 \af38\afs17 \ltrch\fcs0 \f38\fs17\expnd0\expndtw-1\cf21\insrsid2570631 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af38\afs24 \ltrch\fcs0 \f38\fs24\cf22\charscalex111\insrsid2570631 
+\par }{\*\themedata 504b030414000600080000002100828abc13fa0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb6ac3301045f785fe83d0b6d8
+72ba28a5d8cea249777d2cd20f18e4b12d6a8f843409c9df77ecb850ba082d74231062ce997b55ae8fe3a00e1893f354e9555e6885647de3a8abf4fbee29bbd7
+2a3150038327acf409935ed7d757e5ee14302999a654e99e393c18936c8f23a4dc072479697d1c81e51a3b13c07e4087e6b628ee8cf5c4489cf1c4d075f92a0b
+44d7a07a83c82f308ac7b0a0f0fbf90c2480980b58abc733615aa2d210c2e02cb04430076a7ee833dfb6ce62e3ed7e14693e8317d8cd0433bf5c60f53fea2fe7
+065bd80facb647e9e25c7fc421fd2ddb526b2e9373fed4bb902e182e97b7b461e6bfad3f010000ffff0300504b030414000600080000002100a5d6a7e7c00000
+00360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4fc7060abb08
+84a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b63095120f88d94fbc
+52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462a1a82fe353
+bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f7468656d652f7468
+656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b4b0d592c9c
+070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b4757e8d3f7
+29e245eb2b260a0238fd010000ffff0300504b030414000600080000002100ae6f92029b060000511b0000160000007468656d652f7468656d652f7468656d65
+312e786d6cec594f6f1b4514bf23f11d467b6f6327761a4775aad8b11b68d346b15bd4e37877bc3bcdecce6a669cd437d41e9190100571a01237901050a995b8
+94131f25500445ea57e0cdccee7a275e93a48da082fa90eccefce6fd7f6fdecc5ebe722f66e880084979d2f6ea176b1e2289cf039a846defd6b07f61cd4352e1
+24c08c27a4ed4d89f4ae6cbcfbce65bcae22121304eb13b98edb5ea454babeb4247d18c6f2224f490273632e62ace055844b81c0874037664bcbb5daea528c69
+e2a104c7407618fdfc0d10bb391e539f781b39f51e031689927ac06762a069936c49091becd735424e659709748059db0346013f1c927bca430c4b05136daf66
+7eded2c6e525bc9e2d626ac1dad2babef965ebb205c1feb2e129c251c1b4de6fb42e6d15f40d80a9795cafd7ebf6ea053d03c0be0f9a5a59ca341bfdb57a27a7
+5902d9c779dadd5ab3d670f125fa2b7332b73a9d4eb395c962891a907d6ccce1d76aab8dcd65076f4016df9cc3373a9bddeeaa8337208b5f9dc3f72fb5561b2e
+de80224693fd39b47668bf9f512f2063ceb62be16b005fab65f0190aa2a1882ecd62cc13b528d6627c978b3e003490614513a4a62919631fc2b88be391a05833
+c0eb049766ec902fe786342f247d4153d5f6de4f31a4c48cdecb67dfbd7cf6041ddd7f7a74ffc7a3070f8eeeff600939abb671129657bdf8fa933f1f7d88fe78
+f2d58b879f55e36519ffebf71ffdf2d3a7d540489f9938cf3f7ffcdbd3c7cfbff8f8f76f1f56c037051e95e1431a13896e9043b4c76350cc58c5959c8cc4d956
+0c234ccb2b369350e2046b2e15f47b2a72d037a69865de71e4e810d782b705948f2ae0d5c95d47e04124268a5670be16c50e708773d6e1a2d20ad734af929987
+9324ac662e2665dc1ec60755bcbb3871fcdb9ba45037f3b07414ef46c4117397e144e1902444213dc7f709a9d0ee0ea58e5d77a82fb8e46385ee50d4c1b4d224
+433a72a269b6689bc6e0976995cee06fc7363bb75187b32aadb7c8818b84acc0ac42f821618e19afe289c27115c9218e59d9e0d7b18aaa841c4c855fc6f5a402
+4f878471d40b8894556b6e0ad0b7e4f46b182a56a5db77d834769142d1fd2a9ad731e765e416dfef46384eabb0039a4465ec7b721f4214a35daeaae03bdccd10
+fd0e7ec0c94277dfa6c471f7c9d5e0160d1d916601a2672642fb124ab55381639afc5d396614eab18d81f32bc750009f7ff9a822b2ded442bc097b5255266c1f
+2bbf8b70c78b6e978b80bef935770b4f925d02613ebff1bc2db96f4baef79f2fb98bf2f9b48576565ba1eceabec136c5a6458e1776c863cad8404d19b92e4d93
+2c619f08fa30a8d799e321294e4c69048f595d7770a1c0660d125c7d40553488700a0d76ddd3444299910e254ab984839d19aea4adf1d0a42b7b2c6cea0383ad
+0712ab1d1ed8e1153d9c9f0b0a3266b709cde13367b4a2099c96d9caa58c28a8fd2accea5aa85373ab1bd14ca973b8152a830fe75583c1c29ad08020685bc0ca
+ab7040d7ace160821909b4ddedde9bbbc578e13c5d24231c90cc475aef791fd58d93f258313701103b153ed287bc13ac56e2d6d2645f83db699c5466d758c02e
+f7deeb78298fe0999774de1e4b479694939325e8b0edb59acb4d0ff9386d7b6338d3c2639c82d7a5eef9300be166c857c286fd89c96cb27ce6cd56ae989b0475
+b8a6b0769f53d8a903a9906a0bcbc8868699ca4280259a93957fb909663d2f056ca4bf82142b6b100cff9a146047d7b5643c26be2a3bbb34a26d675fb352ca27
+8a8841141ca2119b883d0ceed7a10afa0454c2d584a908fa05eed1b4b5cd945b9cb3a42bdf5e199c1dc72c8d70566e758ae6996ce1268f0b19cc5b493cd0ad52
+76a3dcd95531297f4eaa94c3f87fa68ade4fe0a66025d01ef0e11e5760a4f3b5ed71a1220e55288da8df17d03898da01d10277b1300d4105b7c9e6bf2007fabf
+cd394bc3a4351cf8d41e0d91a0b01fa94810b20b65c944df09c4ead9de6549b28c9089a892b832b5628fc80161435d0357f5deeea10842dd5493ac0c18dcf1f8
+73dfb30c1a85bac929e79b53438abdd7e6c03fddf9d86406a5dc3a6c1a9adcfe858815bbaa5d6f96e77b6f59113d316bb31a795600b3d256d0cad2fe154538e3
+566b2bd69cc6cbcd5c38f0e2bcc63058344429dcf720fd07f63f2a7c66bf4ce80d75c8f7a0b622f8d0a08941d840545fb08d07d205d20e8ea071b28336983429
+6bdaac75d256cb37eb73ee740bbec78cad253b8dbfcf68eca23973d939b9789ec6ce2cecd8da8e2d343578f6788ac2d0383fc818c7986f5ae5af4e7c74171cbd
+05f7fb13a6a40926f8a62430b49e03930790fc96a359baf117000000ffff0300504b0304140006000800000021000dd1909fb60000001b010000270000007468
+656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f78277086f6fd3ba109126dd88d0add40384e4
+350d363f2451eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d93b64b060828e6f37ed1567914b284d2624
+52282e3198720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001996509affb3fd381a89672f1f165dfe5141
+73d9850528a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100828abc13fa0000001c020000130000000000000000
+0000000000000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6a7e7c0000000360100000b00000000000000
+0000000000002b0100005f72656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a0000001c0000000000000000000000000014
+0200007468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d0014000600080000002100ae6f92029b060000511b00001600000000
+000000000000000000d10200007468656d652f7468656d652f7468656d65312e786d6c504b01022d00140006000800000021000dd1909fb60000001b01000027
+00000000000000000000000000a00900007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d0100009b0a00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax267\lsdlockeddef0\lsdsemihiddendef1\lsdunhideuseddef1\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 1;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 2;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 3;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;
+\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;
+\lsdpriority39 \lsdlocked0 toc 1;\lsdpriority39 \lsdlocked0 toc 2;\lsdpriority39 \lsdlocked0 toc 3;\lsdpriority39 \lsdlocked0 toc 4;\lsdpriority39 \lsdlocked0 toc 5;\lsdpriority39 \lsdlocked0 toc 6;\lsdpriority39 \lsdlocked0 toc 7;
+\lsdpriority39 \lsdlocked0 toc 8;\lsdpriority39 \lsdlocked0 toc 9;\lsdqformat1 \lsdpriority35 \lsdlocked0 caption;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority10 \lsdlocked0 Title;\lsdpriority1 \lsdlocked0 Default Paragraph Font;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority59 \lsdlocked0 Table Grid;\lsdunhideused0 \lsdlocked0 Placeholder Text;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdunhideused0 \lsdlocked0 Revision;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 2;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 5;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdsemihidden0 \lsdunhideused0 \lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority61 \lsdlocked0 Light List Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority62 \lsdlocked0 Light Grid Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority70 \lsdlocked0 Dark List Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdsemihidden0 \lsdunhideused0 \lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;
+\lsdsemihidden0 \lsdunhideused0 \lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdpriority37 \lsdlocked0 Bibliography;\lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;}}{\*\datastore 010500000200000018000000
+4d73786d6c322e534158584d4c5265616465722e352e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffffec69d9888b8b3d4c859eaf6cd158be0f000000000000000000000000b010
+7d1d03a6cc01feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}
